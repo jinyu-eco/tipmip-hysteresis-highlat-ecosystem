@@ -1,0 +1,10 @@
+/Exp1_data/
+/Exp2_data/
+/Exp4_data/
+/figures/
+/tipmip-gwl/
+/notebooks/plots.ipynb
+/notebooks/results.ipynb
+**/.ipynb_checkpoints/
+**/__pycache__/
+*.py[cod]
