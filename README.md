@@ -1,6 +1,6 @@
 # Evaluating High-Latitude Ecosystem Hysteresis under Climate Overshoot
 
-This repository contains the analysis notebooks and supporting Python utilities for comparing high-latitude ecosystem responses in three Earth system models (ESMs) during a 2 °C climate overshoot experiment. The analysis covers land areas from 60°N to 90°N and examines near-surface air temperature (`tas`), net primary production (`npp`), tree/shrub/grass fractions, and total vegetation carbon (`cVeg`). It compares the ramp-up and ramp-down branches at equivalent Global Warming Levels (GWLs), and evaluates the zero-emission phase.
+This repository contains the analysis notebooks and supporting Python utilities for comparing high-latitude ecosystem responses in Earth system models (ESMs) during a 2 °C climate overshoot experiment. The analysis covers land areas from 60°N to 90°N and examines near-surface air temperature (`tas`), net primary production (`npp`), tree/shrub/grass fractions, and total vegetation carbon (`cVeg`). It compares the ramp-up and ramp-down branches at equivalent Global Warming Levels (GWLs), and evaluates the zero-emission phase.
 
 ## Experimental design and GWL
 
@@ -36,7 +36,7 @@ tipmip-hysteresis-highlat-ecosystem/
 └── utils/                     # Reusable analysis and preprocessing functions
 ```
 
-The notebooks are the analysis entry points; reusable calculations are in `utils/`. The calculation notebooks write compact intermediate NetCDF summaries to a sibling directory named `tipmip-hysteresis-highlat-ecosystem_plot_data/`; the plotting and results notebooks read those summaries. The figures notebook saves its plots under `figures/`.
+The notebooks are the analysis entry points; reusable calculations are in `utils/`. The calculation notebooks write compact intermediate NetCDF summaries to a sibling directory named `tipmip-hysteresis-highlat-ecosystem_plot_data/`; the plotting and results notebooks read those summaries.
 
 ## Data access and provenance
 
