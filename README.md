@@ -29,7 +29,6 @@ tipmip-hysteresis-highlat-ecosystem/
 ├── Exp1_data/                 # Ramp-up inputs
 ├── Exp2_data/                 # Zero-emission inputs
 ├── Exp4_data/                 # Ramp-down inputs
-├── figures/                   # Figures created by the plotting notebook
 ├── fx/                        # Static area and land-fraction fields
 ├── notebooks/                 # Analysis, plotting, and results notebooks
 ├── tipmip-gwl/                # External GWL mapping package and mapping products
